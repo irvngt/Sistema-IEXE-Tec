@@ -1,13 +1,15 @@
-Ejercico para IEXE Tec
+Ejercicio para IEXE Tec
 ======
-El presente ejemplo esta construido solo con estilos basicos de la libreria materialize
-utilice el los estilos para el layout de la pagina y los estilos de normailize para resetrar los estilos por defecto del navegador.
 
-Al crear la vista de sistema para que un alumno diera de alta un proyectolo primero que invstigue fueron algunos sistemas para registrar datos y ver cual es la mejor panera de presentar la interface que el alumno tuviera una usabilidad fluida al momento de llenar estos campos
-
-
-Decidi utilizar la guia de estilos de material design ya que es un sistema de diseño que es muy intiutivo y familiar para la mayoria de los usuarios, sobre todo en la experciacia movil. 
-
-Tambien decidi utilizar el preprocesador sass ya que hace mucho mas rapido y escalable la compilacion y visualizacion de todos los estilos.
-
-Y por utilmo inclui algunas meta etiquetas para el funcionamiento de SEO y cache css
+El ejemplo está [bocetado en Adobe XD](https://adobe.ly/2WUsMqL) y construido solo con estilos básicos de la librería <a href="[http://example.com/](http://example.com/)" target="_blank">Materialize css</a> 
+  
+Realicé una rápida investigación y me base en algunos diseños similares para el sistema alta de proyectos. Con estos datos, concluí que este diseño era la mejor manera de presentar la interfaz para que el alumno tuviera una usabilidad fluida al momento de llenar los campos.  
+  
+El ejercicio lo diseñe basándome en **Mobile First** para una resolución de `320px x 568px` para cualquier móvil y para cualquier resolución en escritorio a partir de `700px`  
+  
+Decidí utilizar la guía de estilos de 	**Material design**, ya que es un sistema de diseño muy intuitivo y familiar para la mayoría de los usuarios, sobre todo en la experiencia móvil.  
+  
+También decidí utilizar el preprocesador ``` sass``` 
+debido a que hace mucho más rápido y escalable la compilación y visualización de todos los estilos.  
+  
+Por último, incluí algunas metaetiquetas para el funcionamiento de `SEO y cache css`
