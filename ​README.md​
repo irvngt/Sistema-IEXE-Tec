@@ -1,0 +1,13 @@
+Ejercico para IEXE Tec
+======
+El presente ejemplo esta construido solo con estilos basicos de la libreria materialize
+utilice el los estilos para el layout de la pagina y los estilos de normailize para resetrar los estilos por defecto del navegador.
+
+Al crear la vista de sistema para que un alumno diera de alta un proyectolo primero que invstigue fueron algunos sistemas para registrar datos y ver cual es la mejor panera de presentar la interface que el alumno tuviera una usabilidad fluida al momento de llenar estos campos
+
+
+Decidi utilizar la guia de estilos de material design ya que es un sistema de diseño que es muy intiutivo y familiar para la mayoria de los usuarios, sobre todo en la experciacia movil. 
+
+Tambien decidi utilizar el preprocesador sass ya que hace mucho mas rapido y escalable la compilacion y visualizacion de todos los estilos.
+
+Y por utilmo inclui algunas meta etiquetas para el funcionamiento de SEO y cache css

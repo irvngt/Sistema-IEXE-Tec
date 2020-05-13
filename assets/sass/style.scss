@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@import "materialize.min";
+@import"https://fonts.googleapis.com/icon?family=Material+Icons";
+
+:root{
+  --color_primary:#bd3c4b;
+  --color_sec:#08384D;
+}
+
+body{
+  min-height: 100vh;
+  background: linear-gradient(0deg, rgba(189,60,75,1) 0%, rgba(8,56,77,1) 100%);;
+  z-index: 1;
+  
+  .iexe{
+    &_logo{
+      background: url(./assets/img/logo_iexe.png) no-repeat center top;
+      min-height: 100px;
+      min-width: 150px;  
+      background-size: contain;
+      margin: .5rem;
+
+    }
+    &_video_binder{
+       position: absolute;
+      // position: relative;
+      width: 100%;
+      &::after{
+        content: '';
+        display: block;
+        width: 100%;
+        padding-top: 75%;
+      }
+      &_bg{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+        background-size: cover;
+        overflow: hidden;
+        &::after{
+          content: '';
+          display: block;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          //z-index: 2;
+          background: linear-gradient(0deg, hsla(353, 52%, 49%, 0.91) 0%, hsla(198, 81%, 17%, 0.91) 100%);
+          
+        }
+        video{
+          width: auto;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+    }
+
+    &_content{
+      padding-top: 5rem;
+      text-align: center;
+      .btn-large:hover{
+        background: var(--color_sec);
+      }
+      .m4{
+        width: 100%;
+      }
+
+      &_title{
+        position: relative;
+        margin-top: 0;
+        color: #fff;
+        font-family:  Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        font-weight: 300;
+      }
+      li{
+        width: 100%;
+      }
+      &_list{
+        background: #fff;
+        text-align: left;
+        
+          i, b{
+            color: #803c4c
+          }
+        
+        .chip{
+          background-color: rgba(189, 60, 75, 0.4);
+        }
+      }
+
+    }
+    &_nav{
+      background: var(--color_primary);
+      &_menu{
+        display: flex;
+        align-items: center;
+        img{
+          width: 2rem;
+          height: 2rem;
+        }
+      }
+    }
+    &_card{
+      background: var(--color_sec);
+      min-height: 20vh;
+      &_inputxt{
+        margin-top: 2rem;
+        input {
+          color: #fff;
+        }
+        .input-field input[type=text]:focus {
+          border-bottom: 1px solid #fff;
+          box-shadow: 0 1px 0 0 #fff;
+        }
+      }
+      input.select-dropdown{
+        color: #fff; 
+      }
+    
+      i{
+        padding-top: .5rem;
+        &.prefix.active{
+          color:var(--color_primary)
+        }
+      }
+      &_tecn, &_date, &_skills{
+        display: flex;
+        align-items: center;
+        align-self: center;
+        i{
+          padding-right: 1rem;
+        }
+
+      }
+      .chips-autocomplete{
+        margin-left: 0;
+        width: 100%;
+        color: #fff;
+        i{
+          padding-top: 0;
+        }
+        input{
+          color: #fff;
+        }
+      }
+      
+
+      .datepicker-table, 
+      .select-month .select-dropdown.dropdown-trigger, 
+      .select-year .select-dropdown.dropdown-trigger{
+        color: #000;
+      }
+    }
+  }
+}
+
+

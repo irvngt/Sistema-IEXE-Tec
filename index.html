@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css?v10">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
+  <script src="assets/scripts.js"></script>
+  <title>Iexe tec</title>
+</head>
+
+
+<body class="iexe">
+  <div class="iexe_video_binder">
+    <div class="iexe_video_binder_bg">
+      <video playsinline="" muted autoplay loop>
+        <source src="/assets/img/video_iexe.mp4">
+      </video>
+    </div>
+  </div>
+  <nav class="iexe_nav" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo iexe_logo"></a>
+      <ul class="right hide-on-med-and-down">
+        <li class="iexe_nav_menu"><img src="https://source.unsplash.com/user/erondu/30x30" alt="" class="circle responsive-img"><a href="proyectos.html">Ver mis Proyectos</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="proyectos.html">Ver mis proyectos</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="row iexe_content" >
+      <div class="col m12">
+          <h1 class="iexe_content_title">Sistema de Proyectos</h1>
+      </div>
+      <div class="col m12">
+        <div class="col m4">
+          <div class="card iexe_card z-depth-5">
+            <div class="card-content white-text">
+              <span class="card-title">Nombre del Proyecto</span>
+              <div class="input-field iexe_card_inputxt">
+                <i class="material-icons prefix">import_contacts</i>
+                <input id="iexe_name" type="text" class="validate">
+                <label for="iexe_name">Nombre de tu proyecto</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m4">
+          <div class="card iexe_card z-depth-5">
+            <div class="card-content white-text">
+              <span class="card-title">Descripción</span>
+              <div class="input-field iexe_card_inputxt">
+                <i class="material-icons prefix">format_align_left</i>
+                <input id="iexe_project" type="text" class="validate">
+                <label for="iexe_project">Descibenos tu proyecto</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m4">
+          <div class="card iexe_card z-depth-5">
+            <div class="card-content white-text">
+              <span class="card-title">Tecnologías Utilizadas</span>
+              <br/>
+              <div class="input-field iexe_card_tecn">
+                <i class="material-icons prefix">format_list_bulleted</i>
+                <select multiple>
+                  <option value="" disabled>Selecciona la tecnologia que utlizaste</option>
+                  <option value="1">PHP</option>
+                  <option value="2">Javascript</option>
+                  <option value="3">CSS</option>
+                  <option value="3">Phyton</option>
+                  <option value="3">Java</option>
+                </select>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+          
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row iexe_content" >
+      <div class="col m12">
+        <div class="col m4">
+          <div class="card iexe_card z-depth-5">
+            <div class="card-content white-text">  
+              <span class="card-title">Fecha de Inicio del Proyecto</span>
+              <div class="iexe_card_date">
+                <i class="material-icons prefix">date_range</i>
+                <input type="text" class="datepicker white-text">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m4">
+          <div class="card iexe_card z-depth-5">
+            <div class="card-content white-text">
+              <span class="card-title">Fecha de Fin del Proyecto</span>
+              <div class="iexe_card_date">
+                <i class="material-icons prefix">date_range</i>
+                <input type="text" class="datepicker white-text">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m4">
+          <div class="card iexe_card z-depth-5">
+            <div class="card-content white-text">
+              <span class="card-title">Habilidades Adquirida en el Proyecto</span>
+              <div class="iexe_card_skills">
+                <i class="material-icons prefix">emoji_objects</i>
+                <div class="chips chips-autocomplete"></div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="container center">
+    <div class="row iexe_content" >
+      <div class="col m12">
+        <a class="waves-effect waves-light btn-large "><i class="material-icons right">library_add_check</i>Guardar Proyecto</a>
+      </div>
+    </div>
+  </div>
+ 
+
+  <script>
+    
+  </script>
+
+
+</body>
+</html>
